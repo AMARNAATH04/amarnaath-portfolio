@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2d36" />
+      <stop offset="60%" stop-color="#181a1f" />
+      <stop offset="100%" stop-color="#101115" />
+    </linearGradient>
+    <linearGradient id="woodTone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#202228" />
+      <stop offset="100%" stop-color="#14151a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#deskGrad)" />
+
+  <!-- Isometric / stylized desk surface elements -->
+  <g opacity="0.18">
+    <!-- Notebook pages & spine -->
+    <polygon points="120,380 440,240 680,420 360,560" fill="#ffffff" />
+    <polygon points="120,380 360,560 360,580 120,400" fill="#cccccc" />
+    <polygon points="360,560 680,420 680,440 360,580" fill="#aaaaaa" />
+    
+    <!-- Pen lying on desk -->
+    <line x1="280" y1="420" x2="480" y2="340" stroke="#ff5232" stroke-width="8" stroke-linecap="round" />
+    <line x1="480" y1="340" x2="510" y2="328" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Keyboard silhouette -->
+    <rect x="180" y="80" width="380" height="130" rx="10" fill="#2d313c" stroke="#ffffff" stroke-width="1" stroke-opacity="0.2" />
+  </g>
+
+  <!-- Deep dark tint overlay -->
+  <rect width="800" height="600" fill="#0c0d10" opacity="0.75" />
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b0e" />
+      <stop offset="70%" stop-color="#141720" />
+      <stop offset="100%" stop-color="#1a1e2a" />
+    </linearGradient>
+    <radialGradient id="cityGlow" cx="50%" cy="85%" r="65%">
+      <stop offset="0%" stop-color="#ff7b25" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#ff5232" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#skyGrad)" />
+  <rect width="1920" height="1080" fill="url(#cityGlow)" />
+
+  <!-- Far background skyline silhouettes -->
+  <g opacity="0.35" fill="#181c25">
+    <rect x="50" y="580" width="120" height="500" />
+    <rect x="190" y="510" width="160" height="570" />
+    <polygon points="270,460 300,510 240,510" />
+    <rect x="380" y="620" width="140" height="460" />
+    <rect x="540" y="470" width="210" height="610" />
+    <rect x="780" y="540" width="170" height="540" />
+    <polygon points="865,490 890,540 840,540" />
+    <rect x="980" y="420" width="220" height="660" />
+    <rect x="1230" y="520" width="190" height="560" />
+    <rect x="1450" y="480" width="180" height="600" />
+    <rect x="1660" y="570" width="210" height="510" />
+  </g>
+
+  <!-- Midground skyscraper silhouettes -->
+  <g opacity="0.65" fill="#12141c">
+    <rect x="110" y="630" width="140" height="450" />
+    <rect x="290" y="560" width="180" height="520" />
+    <rect x="510" y="520" width="240" height="560" />
+    <rect x="800" y="590" width="150" height="490" />
+    <rect x="990" y="490" width="260" height="590" />
+    <polygon points="1120,430 1150,490 1090,490" />
+    <line x1="1120" y1="360" x2="1120" y2="430" stroke="#ff5232" stroke-width="2" opacity="0.8" />
+    <rect x="1290" y="580" width="220" height="500" />
+    <rect x="1540" y="530" width="200" height="550" />
+    <rect x="1770" y="640" width="130" height="440" />
+  </g>
+
+  <!-- Window lights grid pattern across skyscrapers -->
+  <g fill="#ffea9f" opacity="0.45">
+    <!-- Building 1 windows -->
+    <rect x="310" y="580" width="8" height="12" />
+    <rect x="330" y="580" width="8" height="12" />
+    <rect x="370" y="580" width="8" height="12" />
+    <rect x="330" y="620" width="8" height="12" fill="#ff7b25" />
+    <rect x="350" y="620" width="8" height="12" />
+    <rect x="390" y="620" width="8" height="12" />
+    <rect x="310" y="660" width="8" height="12" />
+    <rect x="370" y="660" width="8" height="12" />
+    <rect x="410" y="660" width="8" height="12" />
+
+    <!-- Building 2 windows -->
+    <rect x="540" y="550" width="10" height="14" />
+    <rect x="570" y="550" width="10" height="14" />
+    <rect x="620" y="550" width="10" height="14" fill="#60a5fa" />
+    <rect x="660" y="550" width="10" height="14" />
+    <rect x="540" y="590" width="10" height="14" />
+    <rect x="600" y="590" width="10" height="14" />
+    <rect x="680" y="590" width="10" height="14" />
+    <rect x="570" y="630" width="10" height="14" fill="#ff5232" />
+    <rect x="630" y="630" width="10" height="14" />
+    <rect x="690" y="630" width="10" height="14" />
+
+    <!-- Landmark central tower windows -->
+    <rect x="1020" y="520" width="12" height="15" />
+    <rect x="1050" y="520" width="12" height="15" />
+    <rect x="1110" y="520" width="12" height="15" fill="#34d399" />
+    <rect x="1140" y="520" width="12" height="15" />
+    <rect x="1180" y="520" width="12" height="15" />
+    <rect x="1020" y="560" width="12" height="15" />
+    <rect x="1080" y="560" width="12" height="15" />
+    <rect x="1140" y="560" width="12" height="15" />
+    <rect x="1200" y="560" width="12" height="15" />
+    <rect x="1050" y="610" width="12" height="15" fill="#f59e0b" />
+    <rect x="1110" y="610" width="12" height="15" />
+    <rect x="1170" y="610" width="12" height="15" />
+  </g>
+
+  <!-- Bokeh / distant highway traffic blur -->
+  <g opacity="0.3">
+    <ellipse cx="400" cy="980" rx="200" ry="8" fill="#ff4d4d" />
+    <ellipse cx="850" cy="990" rx="350" ry="10" fill="#ffdb4d" />
+    <ellipse cx="1400" cy="985" rx="300" ry="9" fill="#ff5232" />
+  </g>
+
+  <!-- Heavy dark gradient overlay to ensure perfect form readability -->
+  <rect width="1920" height="1080" fill="#0d0e12" opacity="0.82" />
+</svg>

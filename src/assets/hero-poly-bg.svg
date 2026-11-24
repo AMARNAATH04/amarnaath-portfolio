@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="gDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121316" />
+      <stop offset="100%" stop-color="#1e2026" />
+    </linearGradient>
+    <linearGradient id="gWarm" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5232" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ff7b25" stop-opacity="0.05" />
+    </linearGradient>
+    <radialGradient id="emberGlow" cx="65%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ff5232" stop-opacity="0.28" />
+      <stop offset="60%" stop-color="#ff7b25" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#121316" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep base -->
+  <rect width="1920" height="1080" fill="#141519" />
+
+  <!-- Warm ambient glow -->
+  <rect width="1920" height="1080" fill="url(#emberGlow)" />
+
+  <!-- Low poly faceted mountain polygons matching reference template -->
+  <g opacity="0.88">
+    <!-- Background ridge polygons -->
+    <polygon points="0,450 320,280 640,490 0,600" fill="#181a20" />
+    <polygon points="320,280 580,180 820,380 640,490" fill="#20232b" />
+    <polygon points="580,180 920,120 1140,320 820,380" fill="#272b35" />
+    <polygon points="920,120 1280,190 1440,360 1140,320" fill="#1f2229" />
+    <polygon points="1280,190 1620,140 1780,390 1440,360" fill="#282c37" />
+    <polygon points="1620,140 1920,220 1920,520 1780,390" fill="#1b1d23" />
+
+    <!-- Midground faceted peaks with warm ember facets -->
+    <polygon points="150,680 420,390 710,610 240,780" fill="#23262f" />
+    <polygon points="420,390 680,260 890,520 710,610" fill="#2f3440" />
+    <polygon points="680,260 980,210 1120,490 890,520" fill="#3a404f" />
+    
+    <!-- Warm illuminated facet -->
+    <polygon points="980,210 1210,310 1120,490" fill="#4d3229" />
+    <polygon points="1210,310 1420,250 1380,510 1120,490" fill="#5c382e" />
+    <polygon points="1420,250 1680,320 1560,570 1380,510" fill="#3c2a27" />
+    <polygon points="1680,320 1920,300 1880,620 1560,570" fill="#292c34" />
+
+    <!-- Foreground dramatic low poly facets -->
+    <polygon points="0,850 280,560 520,820 0,1080" fill="#1a1c22" />
+    <polygon points="280,560 590,440 760,740 520,820" fill="#252932" />
+    <polygon points="590,440 880,380 990,690 760,740" fill="#323744" />
+    <polygon points="880,380 1180,360 1260,720 990,690" fill="#3f4556" />
+
+    <!-- Highlights & Ember edges -->
+    <polygon points="1180,360 1440,410 1320,740 1260,720" fill="#693b2a" />
+    <polygon points="1440,410 1720,440 1620,790 1320,740" fill="#583125" />
+    <polygon points="1720,440 1920,420 1920,820 1620,790" fill="#2c2222" />
+
+    <!-- Lower slope shadows -->
+    <polygon points="0,920 460,780 720,1080 0,1080" fill="#15161b" />
+    <polygon points="460,780 840,710 1020,1080 720,1080" fill="#1d1f26" />
+    <polygon points="840,710 1220,680 1380,1080 1020,1080" fill="#242831" />
+    <polygon points="1220,680 1580,720 1740,1080 1380,1080" fill="#2e2626" />
+    <polygon points="1580,720 1920,690 1920,1080 1740,1080" fill="#1b1c21" />
+  </g>
+
+  <!-- Fine polygon wireframe lines for 3D digital feel -->
+  <g stroke="#ffffff" stroke-width="0.75" stroke-opacity="0.08" fill="none">
+    <line x1="580" y1="180" x2="680" y2="260" />
+    <line x1="680" y1="260" x2="890" y2="520" />
+    <line x1="980" y1="210" x2="1120" y2="490" />
+    <line x1="1210" y1="310" x2="1380" y2="510" />
+    <line x1="880" y1="380" x2="990" y2="690" />
+    <line x1="1180" y1="360" x2="1260" y2="720" />
+    <line x1="1440" y1="410" x2="1320" y2="740" />
+  </g>
+
+  <!-- Soft vignette gradient overlay -->
+  <radialGradient id="vig" cx="50%" cy="50%" r="70%">
+    <stop offset="40%" stop-color="#121316" stop-opacity="0" />
+    <stop offset="100%" stop-color="#0e0f12" stop-opacity="0.85" />
+  </radialGradient>
+  <rect width="1920" height="1080" fill="url(#vig)" />
+</svg>

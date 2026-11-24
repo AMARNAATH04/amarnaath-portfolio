@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sihGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181528" />
+      <stop offset="50%" stop-color="#2a1f46" />
+      <stop offset="100%" stop-color="#141122" />
+    </linearGradient>
+    <linearGradient id="accentOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#sihGrad)" />
+
+  <g transform="translate(50, 40)">
+    <!-- Device Frame -->
+    <rect width="700" height="420" rx="16" fill="#13111f" stroke="#372c57" stroke-width="2" />
+    
+    <!-- Header -->
+    <rect width="700" height="55" rx="16" fill="#1e1833" />
+    <circle cx="35" cy="28" r="8" fill="#fb923c" />
+    <text x="55" y="33" fill="#ffffff" font-family="'Montserrat', sans-serif" font-weight="800" font-size="14">SMART INDIA HACKATHON 2025</text>
+    <rect x="530" y="16" width="140" height="24" rx="12" fill="#3b2b62" />
+    <text x="600" y="32" fill="#fb923c" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Internal Hackathon</text>
+
+    <!-- Content Blocks -->
+    <g transform="translate(30, 80)">
+      <!-- Main Solution Card -->
+      <rect width="400" height="300" rx="10" fill="#19152b" stroke="#332752" stroke-width="1" />
+      <text x="25" y="35" fill="#ffffff" font-family="'Montserrat', sans-serif" font-size="16" font-weight="700">Problem Statement Architecture</text>
+      <text x="25" y="60" fill="#a598c9" font-family="'Inter', sans-serif" font-size="12">Sustainable Tech &amp; Community Optimization</text>
+
+      <!-- Flow Nodes Diagram -->
+      <rect x="30" y="90" width="100" height="50" rx="6" fill="#2d224d" stroke="#f97316" stroke-width="1.5" />
+      <text x="80" y="120" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Data Ingestion</text>
+
+      <line x1="130" y1="115" x2="160" y2="115" stroke="#f97316" stroke-width="2" stroke-dasharray="4,2" />
+
+      <rect x="160" y="90" width="100" height="50" rx="6" fill="#2d224d" stroke="#a855f7" stroke-width="1.5" />
+      <text x="210" y="120" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Engine Core</text>
+
+      <line x1="260" y1="115" x2="290" y2="115" stroke="#a855f7" stroke-width="2" stroke-dasharray="4,2" />
+
+      <rect x="290" y="90" width="90" height="50" rx="6" fill="#2d224d" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="335" y="120" fill="#ffffff" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Analytics</text>
+
+      <!-- Terminal / Code view -->
+      <rect x="30" y="165" width="340" height="110" rx="6" fill="#0d0a17" stroke="#251c3d" stroke-width="1" />
+      <text x="45" y="190" fill="#10b981" font-family="'Courier New', monospace" font-size="11">$ python sih_core_engine.py --run</text>
+      <text x="45" y="210" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">[✓] Models loaded: 100%</text>
+      <text x="45" y="230" fill="#94a3b8" font-family="'Courier New', monospace" font-size="10">[✓] Multi-node data aggregation active</text>
+      <text x="45" y="250" fill="#fb923c" font-family="'Courier New', monospace" font-size="10">&gt; Presentation prototype ready for evaluation</text>
+
+      <!-- Right Column Stats -->
+      <g transform="translate(420, 0)">
+        <rect width="210" height="90" rx="10" fill="#19152b" stroke="#332752" stroke-width="1" />
+        <text x="20" y="30" fill="#a598c9" font-family="'Inter', sans-serif" font-size="11">NATIONAL INITIATIVE</text>
+        <text x="20" y="60" fill="#f97316" font-family="'Montserrat', sans-serif" font-size="22" font-weight="800">SIH 2025</text>
+
+        <rect y="105" width="210" height="90" rx="10" fill="#19152b" stroke="#332752" stroke-width="1" />
+        <text x="20" y="135" fill="#a598c9" font-family="'Inter', sans-serif" font-size="11">COLLABORATION</text>
+        <text x="20" y="165" fill="#a855f7" font-family="'Montserrat', sans-serif" font-size="18" font-weight="700">Team Innovation</text>
+
+        <rect y="210" width="210" height="90" rx="10" fill="#19152b" stroke="#332752" stroke-width="1" />
+        <text x="20" y="240" fill="#a598c9" font-family="'Inter', sans-serif" font-size="11">STATUS</text>
+        <text x="20" y="270" fill="#34d399" font-family="'Montserrat', sans-serif" font-size="18" font-weight="700">Prototype Tested</text>
+      </g>
+    </g>
+  </g>
+</svg>
